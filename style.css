@@ -38,6 +38,10 @@ li {
     font-size: 1em;
     color: #080808;
 }
+.item:hover {
+    color: white;
+    background-color: black;
+}
 .iconredes {
     width: 2rem;
 }
