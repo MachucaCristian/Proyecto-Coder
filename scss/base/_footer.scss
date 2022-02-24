@@ -1,0 +1,32 @@
+/*Footer*/
+
+.footer-container{
+    width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+    /*background-color: #E3E5E4;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-container > div {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.logo-footer > p {
+    /*margin-left: 2em;*/
+    margin-top: 1em;
+    text-align: left;
+}
+
+.mapa {
+    margin-left: 5%;
+    width: 90%;
+    
+}
+.logo-footer > p {
+    text-align: center;
+}
+/*Fin Footer*/
