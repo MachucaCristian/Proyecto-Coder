@@ -1,9 +1,10 @@
-@import 'base/header';
-@import 'base/footer';
+@import 'components/header';
+@import 'components/footer';
 @import 'components/nosotros';
 @import 'components/productos';
 @import 'components/proyectos';
 @import 'components/main';
 @import 'components/servicios';
 @import 'components/contacto';
+@import 'base/mediasquery';
 

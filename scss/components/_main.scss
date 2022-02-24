@@ -1,3 +1,4 @@
+@import '../base/variables';
 /*Main*/
 main {
     text-align: center;
@@ -33,7 +34,7 @@ main {
 }
 .nosotros {
     width: 80%;
-    background-color: #E3E5E4;
+    background-color: $bg-color-nosotros;
     border-radius: 10px;
     color: black;
     text-align: center;

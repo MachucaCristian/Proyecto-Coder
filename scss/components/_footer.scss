@@ -1,10 +1,12 @@
+@import '../base/variables';
 /*Footer*/
 
 .footer-container{
     width: 100%;
     padding-left: auto;
     padding-right: auto;
-    /*background-color: #E3E5E4;*/
+    background-color: $bg-color-footer;
+    color: black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -16,7 +18,7 @@
 }
 
 .logo-footer > p {
-    /*margin-left: 2em;*/
+    
     margin-top: 1em;
     text-align: left;
 }
