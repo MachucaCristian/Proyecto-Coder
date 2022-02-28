@@ -1,45 +1,38 @@
 @import '../base/variables';
-/*Header*/
-.header-container {
-    width: 100%;
-    padding-right: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    flex-wrap: wrap;
-}
-.logo {
-    font-family: $font-family-logo;
-    font-size: 2em;
-    font-weight: bolder;
-    color: $color-logo;
-    text-decoration: none;
-    padding-left: 2rem;
-}
-.menu {
-    width: 50%;
-    
-}
-.barra {
-    width: 100%;  
-    display: flex;
-    justify-content: space-around; 
-} 
-li {
-    list-style: none;
-    
-}
-.item {
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 1em;
-    color: #080808;
-}
 
-.iconredes {
-    width: 2rem;
+/*Header*/
+header {
+    .header-container {
+        width: 100%;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+
+        .logo {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            font-weight: bolder;
+            color: #080808;
+            text-decoration: none;
+            padding-left: 2rem;
+
+        }
+
+        .redes {
+            .iconredes {
+                width: 2rem;
+
+                &:hover {
+                    width: 3rem;
+
+                }
+
+            }
+        }
+
+    }
 }
-.iconredes:hover{
-    width: 3rem;
-}
-/*Fin Header*/
+/*Fin header*/
+
