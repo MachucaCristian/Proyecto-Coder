@@ -1,13 +1,12 @@
 @import '../base/variables';
+@import '../base/mixins';
 
 /*Header*/
 header {
     .header-container {
         width: 100%;
         padding-right: 1rem;
-        display: flex;
-        align-items: center;
-        justify-content: space-between; 
+        @include flex-header (flex, center, space-between); 
         flex-wrap: wrap;
 
         .logo {

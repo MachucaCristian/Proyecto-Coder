@@ -1,12 +1,12 @@
 @import '../base/variables';
+@import '../base/mixins';
 /*Footer*/
 .footer-container {
     width: 100%;
     padding-left: auto;
     padding-right: auto;
     background-color: black;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @include grid-columnas (grid, 1fr 1fr 1fr 1fr);
     
     .logo-footer {
         text-align: center;
