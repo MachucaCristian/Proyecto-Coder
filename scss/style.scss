@@ -6,8 +6,9 @@
 @import 'components/main';
 @import 'components/servicios';
 @import 'components/contacto';
-@import 'base/mediasquery';
 @import 'base/extends';
 @import 'base/mixins';
 
-
+.disclaimer {
+    display: none;
+}

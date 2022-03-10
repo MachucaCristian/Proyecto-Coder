@@ -3,34 +3,40 @@
 
 /*Header*/
 header {
+    
     .header-container {
         width: 100%;
         padding-right: 1rem;
         @include flex-header (flex, center, space-between); 
         flex-wrap: wrap;
 
+        @media screen and (max-width: 980px) {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            gap: 1em;
+            text-align: center;
+        }    
+
         .logo {
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Fredoka One', cursive;
             font-size: 2em;
-            font-weight: bolder;
             color: #080808;
             text-decoration: none;
             padding-left: 2rem;
-
         }
 
         .redes {
             .iconredes {
-                width: 2rem;
+                padding: 10px;
+                width: 3rem;
+                transition: all 1s;
 
                 &:hover {
-                    width: 3rem;
-
+                    transform: scale(2);
                 }
-
             }
         }
-
     }
 }
 /*Fin header*/
