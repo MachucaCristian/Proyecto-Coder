@@ -1,8 +1,9 @@
+
 @import '../base/mixins';
 /* Contacto */
 .seccion {
     text-align: center;
-    font-family: 'Righteous', cursive;
+    font-family: $font-family-page;
     font-size: 1.5em;
     color: #080808;
     margin-bottom: 2em;
